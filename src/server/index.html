@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Graph Algorithm API</title>
+  </head>
+  <body>
+    <form action="http://localhost:8000/create" method="get">
+      <input type="submit" value="Create Graph" />
+    </form>
+    <form action="http://localhost:8000/addEdge" method="get">
+      <input type="text" name="source" value="3"/>
+      <input type="text" name="dest" value="5"/>
+      <input type="submit" value="Add Edge" />
+    </form>
+    <form action="http://localhost:8000/displayPath" method="get">
+      <input type="text" name="source" value="1"/>
+      <input type="text" name="dest" value="3"/>
+      <input type="submit" value="Display Path from a to b" />
+    </form>
+    <form action="http://localhost:8000/displayGraph" method="get">
+      <input type="submit" value="Display Graph" />
+    </form>
+    <p>Result:</p>
+    <textarea cols='32' rows='10'>${result}</textarea>
+
+  </body>
+</html>
