@@ -12,8 +12,6 @@ http://bit.ly/2oG3Uz2
 
 ## Motivation
 
-This is mainly to strengthen my portfolio by demonstrating some ES6 Javascript running on a backend server.
-
 This is an individual project built using node.js for the back-end. It also features a graph data-structure constructed from scratch, and graph algorithms for depth-first search and breadth-first-search. The data structure and algorithms are written in Javascript ES6.
 
 ![alt tag](http://web.cecs.pdx.edu/~sfabini/img/bfs.png)

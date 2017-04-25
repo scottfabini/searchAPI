@@ -2,8 +2,8 @@ import Graph from './Graph'
 class BreadthFirstPaths {
 
   constructor(G, s) {
-    this.marked = new Array(G.vertexCount()) // search has already been called for this vertex
-    this.edgeTo = new Array(G.vertexCount()) // last vertex on known path to this vertex
+    this.marked = new Array(G.vertexCount())
+    this.edgeTo = new Array(G.vertexCount())
     this.s = s // source vertex
     this.bfs(G, s)
   }
