@@ -19,7 +19,6 @@ class BreadthFirstPaths {
           this.edgeTo[w] = v
           this.marked[w] = true
           queue.push(w)
-          this.bfs(G, w)
         }
       }
     }
